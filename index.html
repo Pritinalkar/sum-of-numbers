@@ -54,5 +54,15 @@
     
          <button type="button" class="result-button" onclick="calSum()">Result</button>
          </div>
+         <script>
+            function calSum()
+            {
+               const num1Elemnet = document.getElementById("input-num1")
+               const num2Elemnet = document.getElementById("input-num2")
+               const num = parseInt(num1Elemnet.value) +  parseInt(num2Elemnet.value)
+               const resultElement = document .getElementById("text-result")
+               resultElement.innerText = `Sum = ${num}`
+            }
+            </script>
 </body>
 </html>
