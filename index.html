@@ -18,6 +18,41 @@
         justify-content: center;
         margin-left: 500px;
     }
+    .app-title{
+        text-align: center;
+     }
+     .input-box{
+        justify-content:center;
+        width:200px;
+        margin:10px 200px;
+        text-align:center;
+    }
+     .result-button{
+       justify-content: center;
+        border-style: solid;
+        border-color: black;
+        width: 200px;
+        background-color: rgb(12, 196, 247);
+        margin-left: 200px;
+        margin-top: 80px;
+        cursor: pointer;
+    }
+    .text-result{
+        margin: 0;
+        padding: 0;
+        font-size:40px ;
+        text-align: center;
+    }
     </style>
+    <div class="app-container">
+        <h1 class="app-title">Sum Of Two Numbers</h1>
+         <input type="text" class="input-box" id="input-num1" placeholder="Enter first number"/>
+         <input type="text"class="input-box" id="input-num2" placeholder="Enter second number"/>
+         <p class="text-result" id="text-result">
+         
+         </p>
+    
+         <button type="button" class="result-button" onclick="calSum()">Result</button>
+         </div>
 </body>
 </html>
